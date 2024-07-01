@@ -86,6 +86,7 @@ using namespace std;
 // }
 
 // strivers code ;
+
 int main()
 {
     int number;
