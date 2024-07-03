@@ -14,7 +14,7 @@ int main()
     float resultFloat;
 
     printf("Array elements: ");
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < size; i++) // to go to each index one by one
     {
         printf("%d ", arr[i]);
     }
