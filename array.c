@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int findSmallest(int arr[], int size); // function to find smallest number
-int findLargest(int arr[], int size);  // function to find largest number
-int sumArray(int arr[], int size);     // function to find sum of elements of array
-float averageArray(int arr[], int size);
+int findSmallest(int arr[], int size);   // function to find smallest number
+int findLargest(int arr[], int size);    // function to find largest number
+int sumArray(int arr[], int size);       // function to find sum of elements of array
+float averageArray(int arr[], int size); // average of number
 
 int main()
 {
