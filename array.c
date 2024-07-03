@@ -30,7 +30,7 @@ int main()
     switch (choice)
     {
     case 1:
-        resultInt = findSmallest(arr, size);
+        resultInt = findSmallest(arr, size); // entering arr, size to the function
         printf("Smallest element: %d\n", resultInt);
         break;
     case 2:
