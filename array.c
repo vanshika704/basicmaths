@@ -16,7 +16,7 @@ int main()
     printf("Array elements: ");
     for (int i = 0; i < size; i++) // to go to each index one by one
     {
-        printf("%d ", arr[i]);
+        printf("%d ", arr[i]); // array print
     }
     printf("\n");
 
