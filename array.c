@@ -25,7 +25,7 @@ int main()
     printf("2. Find Largest\n");
     printf("3. Sum of Elements\n");
     printf("4. Average of Elements\n");
-    scanf("%d", &choice);
+    scanf("%d", &choice); // entering choice
 
     switch (choice)
     {
