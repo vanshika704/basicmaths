@@ -7,7 +7,7 @@ float averageArray(int arr[], int size); // average of number
 
 int main()
 {
-    int arr[] = {5, 8, 3, 12, 7};
+    int arr[] = {5, 8, 3, 12, 7}; // defining array
     int size = sizeof(arr) / sizeof(arr[0]);
     int choice;
     int resultInt;
