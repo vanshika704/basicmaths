@@ -3,17 +3,18 @@ using namespace std;
 
 void selectionsort(int array[], int n) // function bnaya humne sselection sort naam ka , ume do values pass ki h , array , int
 {
-    for (int i = 0; i < n - 1; i++)
+    for (int i = 0; i < n - 1; i++) // for loop laya ek ek index pe jaane ko
     {
-        int minIndex = i;
-        for (int j = i + 1; j < n; j++)
+        int minIndex = i;               // minimum index ko i se initialize kiya
+        for (int j = i + 1; j < n; j++) // fir usme doosra loop lagya
         {
-            if (array[j] < array[minIndex])
+            if (array[j] < array[minIndex]) // agar array ka element minimum ke barabar ho
             {
-                minIndex = j;
+                minIndex = j; // minimum value ko fir barabar krdo us index ke
             }
         }
-        int temp = array[minIndex];
+        int temp = array[minIndex]; // fir bss swap kiya h
+
         array[minIndex] = array[i];
         array[i] = temp;
     }
